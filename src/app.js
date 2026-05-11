@@ -6,7 +6,7 @@ const routes = require("./routes/index.routes");
 const app = express();
 
 app.use(cors({
-  origin: 'https://frontend-titulo-axelbm.netlify.app/'
+  origin: 'https://frontend-titulo-axelbm.netlify.app'
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
